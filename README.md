@@ -55,6 +55,7 @@ https://github.com/sebasobotka/ofxImGui -> Combo and ListBox which can take a ve
 https://github.com/MacFurax/ofxImGui -> nice theme, custom widgets kind of sound synth device like circular knob...  
 https://github.com/pjulien21/ofImGuiApp -> simple but modifiying main.app 
 https://github.com/yumataesu/ImGui_Widgets -> kind of vj widgets  
+https://github.com/Iwanaka/ofxMyUtil/blob/master/src/utils/ofxMyUtilImGui.h -> helpers. 
 https://github.com/geekowll/imdesigner -> tools to create and deep customize widgets  
 https://github.com/katotetsuro/ofxImGui/tree/multiwindow -> simple code to multiwindow/contexts/instances without crash  
 https://github.com/memo/ofxMSAControlFreakImGui  
