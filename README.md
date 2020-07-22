@@ -11,8 +11,9 @@ folder `/v1.77` includes `/libs` and `/opengl` folders to easy switch to non-doc
 
 
 **/example-demo**  
-![image](https://github.com/moebiussurfing/ofxImGui_v3/blob/master/readme_images/screenshot1.PNG?raw=true "readme_images/screenshot1.PNG")  
-![image](https://github.com/moebiussurfing/ofxImGui_v3/blob/master/readme_images/screenshot2.PNG?raw=true "readme_images/screenshot2.PNG")  
+
+![image](https://github.com/moebiussurfing/ofxImGui_v4/blob/master/readme_images/screenshot1.PNG?raw=true "readme_images/screenshot1.PNG")  
+![image](https://github.com/moebiussurfing/ofxImGui_v4/blob/master/readme_images/screenshot2.PNG?raw=true "readme_images/screenshot2.PNG")  
 
 **This is a splitted-fork from**  
 https://github.com/yumataesu/ofxImGui_v3  
