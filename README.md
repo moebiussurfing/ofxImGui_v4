@@ -13,6 +13,7 @@ folder `/v1.77` includes `/libs` and `/opengl` folders to easy switch to non-doc
 **/example-demo**  
 
 ![image](https://github.com/moebiussurfing/ofxImGui_v4/blob/master/readme_images/screenshot1.PNG?raw=true "readme_images/screenshot1.PNG")  
+
 ![image](https://github.com/moebiussurfing/ofxImGui_v4/blob/master/readme_images/screenshot2.PNG?raw=true "readme_images/screenshot2.PNG")  
 
 **This is a splitted-fork from**  
@@ -24,8 +25,9 @@ Using some of the OF helper funtions.
 Simpler and easy to update than the `official` addon:  
 https://github.com/jvcleave/ofxImGui  
 My main idea here is to have a simpler wrapper but with some helper methods useful for openFrameworks, mainly to easy handle `ofParameter/ofParameterGroup`.  
-Like `ofxImGuiSimple` or `ofxImGui_v3`, to *use the more pure ImGui code as possible*.  
-I will add some interesting links and examples (focused in OF).  
+Besides ofxImGui: it allows helpesr using native begin/end, not required ofxImgui:Begin/End  
+Like `ofxImGuiSimple` or `ofxImGui_v3`, intended to *use the more pure ImGui code as possible*.  
+I will add some related personal notes, interesting links and examples (focused in OF).  
 
 
 https://github.com/ocornut/imgui/releases/tag/v1.77  
@@ -56,19 +58,20 @@ https://github.com/sebasobotka/ofxImGui -> Combo and ListBox which can take a ve
 https://github.com/MacFurax/ofxImGui -> nice theme, custom widgets kind of sound synth device like circular knob...  
 https://github.com/pjulien21/ofImGuiApp -> simple but modifiying main.app 
 https://github.com/yumataesu/ImGui_Widgets -> kind of vj widgets  
-https://github.com/Iwanaka/ofxMyUtil/blob/master/src/utils/ofxMyUtilImGui.h -> helpers. 
+https://github.com/Iwanaka/ofxMyUtil/blob/master/src/utils/ofxMyUtilImGui.h -> OF helpers. 
 https://github.com/geekowll/imdesigner -> tools to create and deep customize widgets  
-https://github.com/katotetsuro/ofxImGui/tree/multiwindow -> simple code to multiwindow/contexts/instances without crash  
+https://github.com/katotetsuro/ofxImGui/tree/multiwindow -> simple code to allow multiwindow/contexts without crash  
 https://github.com/memo/ofxMSAControlFreakImGui  
 https://github.com/rystylee/ofxImGui-docking    
 https://github.com/Akira-Hayasaka/ofxImGui_SplineEditor  
 
 **RAW IMGUI CODE**  
 https://github.com/ocornut/imgui_club -> main examples  
-https://github.com/aiekick/ImGuiFileDialog  
+https://github.com/aiekick/ImGuiFileDialog -> files browsers  
 https://github.com/AirGuanZ/imgui-filebrowser
-https://github.com/CedricGuillemet/ImGuizmo  
+https://github.com/CedricGuillemet/ImGuizmo -> gizmos  
 https://github.com/BrutPitt/imGuIZMO.quat  
+https://github.com/john-chapman/im3d  
 
 **NODE PATCHING**  
 https://github.com/thedmd/imgui-node-editor -> looking to port nodes into OF..  
