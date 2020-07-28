@@ -16,7 +16,8 @@ void ofApp::setup()
 
 	paramsNested.setName("styleGroup");//another nested group
 	paramsNested.add(fill.set("fill", false));
-	paramsNested.add(color.set("color", ofColor(0, 255), ofColor(0, 0), ofColor(255, 255)));
+	paramsNested.add(color.set("floatColor", ofFloatColor(0, 1), ofFloatColor(0, 0), ofFloatColor(1, 1)));
+	//paramsNested.add(color.set("color", ofColor(0, 255), ofColor(0, 0), ofColor(255, 255)));
 	paramsNested.add(lineWidth.set("lineWidth", 1, 0.1, 10));
 
 	//params.add(paramsNested);//main preset settings container
@@ -31,17 +32,24 @@ void ofApp::update() {
 
 //--------------------------------------------------------------
 void ofApp::draw() {
-	//ofSetBackgroundColor(backgroundColor);
+	ofBackground(ofFloatColor(backgroundColor.x, backgroundColor.y, backgroundColor.z));
+	//ofBackground(color.get());
 
 	//required to call this at beginning
 	gui.begin();
 	{
+		if (ofxImGui::MyKnob("myKnob", &myKnob, 0.f, 10.f))
+		{
+			ofLogNotice(__FUNCTION__) << "knob:" << myKnob;
+		}
+
 		ImGui::Text("Hello, world!");
 		ImGui::ColorEdit3("Background Color", (float*)&backgroundColor);
 		ImGui::SliderFloat("Float", &floatValue, 0.0f, 1.0f);
 
 		if (ImGui::Checkbox("Demo Window", &b))
-		{}
+		{
+		}
 		if (b) ImGui::ShowDemoWindow();
 
 		//int i = ofxImGui::openConfirmationPopup("popup", "really?", true);
@@ -58,7 +66,7 @@ void ofApp::draw() {
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key) {
 
-	ofLogVerbose(__FUNCTION__) << key;
+	ofLogNotice(__FUNCTION__) << key;
 	switch (key)
 	{
 

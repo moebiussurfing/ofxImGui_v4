@@ -30,7 +30,7 @@ public:
 	ofParameterGroup paramsNested;
 	ofParameter<bool> fill;
 	ofParameter<float> lineWidth;
-	ofParameter<ofColor> color;
+	ofParameter<ofFloatColor> color;
 	ofParameter<int> shapeType;
 	ofParameter<int> numShapes;
 	ofParameter<int> separation;
@@ -38,4 +38,8 @@ public:
 
 	bool b;
 
+
+	//---
+
+	float myKnob;
 };
