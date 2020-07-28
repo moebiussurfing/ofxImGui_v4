@@ -38,10 +38,17 @@ void ofApp::draw() {
 	//required to call this at beginning
 	gui.begin();
 	{
+		//knob widget
 		if (ofxImGui::MyKnob("myKnob", &myKnob, 0.f, 10.f))
 		{
-			ofLogNotice(__FUNCTION__) << "knob:" << myKnob;
+			ofLogNotice(__FUNCTION__) << "MyKnob:" << myKnob;
 		}
+
+		//color picker
+		//ImVec4 myCol = ImVec4(0.75f, 0.75f, 0.75f, 1.f);
+		//if (ofxImGui::ColorSelector2("myColorPicker", myCol)) {//not working
+		//	//ofLogNotice(__FUNCTION__) << "ColorSelector:" << ofToString(myCol);
+		//}
 
 		ImGui::Text("Hello, world!");
 		ImGui::ColorEdit3("Background Color", (float*)&backgroundColor);
