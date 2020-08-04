@@ -552,3 +552,7 @@ MigrationBackup/
 .ionide/
 example-demo/bin/imgui.ini
 example-demo/bin/imgui.ini
+example-demo/config.make
+example-demo/Makefile
+example-demo/openFrameworks-Info.plist
+example-demo/Project.xcconfig
