@@ -67,7 +67,7 @@ https://github.com/katotetsuro/ofxImGui/tree/multiwindow -> simple code to allow
 https://github.com/memo/ofxMSAControlFreakImGui  
 https://github.com/rystylee/ofxImGui-docking    
 https://github.com/Akira-Hayasaka/ofxImGui_SplineEditor  
-
+https://github.com/d3cod3/ofxImGui/commit/a288774a4ff2bd395a47e7720d9cdb487e23fc94 -> customize fonts  
 **RAW IMGUI CODE**  
 https://github.com/ocornut/imgui_club -> main examples  
 https://github.com/aiekick/ImGuiFileDialog -> files browsers  
