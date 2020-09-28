@@ -1,7 +1,10 @@
 ofxImGui_v4
 =============================
 
-## Notes by @moebiusSurfing:
+## Notes by @moebiusSurfing:  
+
+### *NOT READY TO USE YET. STILL VERY BUGGY. I AM HAVING PROBLEMS TO ADD HELPERS TO HANDLE ofParameters*  
+
 
 ### About    
 *Currently updated to docking branch on Jul 17, 2020*  
