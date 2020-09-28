@@ -21,6 +21,10 @@ ImGui::End();
 
 # example
 
+//h
+ImFont* font1;
+ImFont* font2;
+
 //setup()
 //Change font in ofxImGui/ImGui
 //https://forum.openframeworks.cc/t/change-font-in-ofximgui/28841
@@ -48,6 +52,7 @@ font3 = io.Fonts->AddFontFromFileTTF(myPath, 20.0f, &config);
 //--
 
 //draw()
+
 ImGui::Text("Hello, world!");
 ImGui::ColorEdit3("Background Color", (float*)&backgroundColor);
 ImGui::PushFont(font2);
@@ -74,6 +79,18 @@ if (ImGui::BeginCombo("Fonts", font_current->GetDebugName())) {
     }
     ImGui::EndCombo();
 }
+
+//----
+
+//another method
+
+ImGuiIO& io = ImGui::GetIO();
+float _size = 14.f;
+string _name = "FiraCodeRegular.ttf";
+//float _size = 13.f;
+//string _name = "overpass-mono-bold.otf";
+string _path = "assets/fonts/" + _name;//assets folder
+io.Fonts->AddFontFromFileTTF(&ofToDataPath(_path)[0], _size);
 
 //--
 

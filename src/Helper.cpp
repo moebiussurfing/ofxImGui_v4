@@ -101,6 +101,12 @@ void AddGroup(const ofParameterGroup& group) {
 			ofxImGui::AddParameter(*parameterFloatColor);
 			continue;
 		}
+		auto parameterColor = std::dynamic_pointer_cast<ofParameter<ofColor>>(parameter);
+		if (parameterColor)
+		{
+			ofxImGui::AddParameter(*parameterColor);
+			continue;
+		}
 		auto parameterFloat = std::dynamic_pointer_cast<ofParameter<float>>(parameter);
 		if (parameterFloat)
 		{
@@ -271,6 +277,35 @@ bool AddParameter(ofParameter<ofVec4f>& parameter)
 bool AddParameter(ofParameter<ofFloatColor>& parameter, bool alpha)
 {
 	auto tmpRef = parameter.get();
+	if (alpha)
+	{
+		if (ImGui::ColorEdit4(GetUniqueName(parameter), &tmpRef.r))
+		{
+			parameter.set(tmpRef);
+			return true;
+		}
+	}
+	else if (ImGui::ColorEdit3(GetUniqueName(parameter), &tmpRef.r))
+	{
+		parameter.set(tmpRef);
+		return true;
+	}
+	return false;
+}
+//--------------------------------------------------------------
+bool ofxImGui::AddParameter(ofParameter<ofColor>& parameter, bool alpha)
+{
+	//auto tmpRef = parameter.get();
+
+	ofParameter<ofFloatColor> c;
+	c.set(parameter.getName(),
+		ofFloatColor(parameter.get().r / 255.f, parameter.get().g / 255.f, parameter.get().b / 255.f, parameter.get().a / 255.f),
+		ofFloatColor(0, 0, 0, 0),
+		ofFloatColor(1.f, 1.f, 1.f, 1.f)
+	);
+
+	auto tmpRef = c.get();
+
 	if (alpha)
 	{
 		if (ImGui::ColorEdit4(GetUniqueName(parameter), &tmpRef.r))

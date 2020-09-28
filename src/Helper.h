@@ -43,6 +43,7 @@ namespace ofxImGui
 	bool AddParameter(ofParameter<ofVec3f>& parameter);
 	bool AddParameter(ofParameter<ofVec4f>& parameter);
 	bool AddParameter(ofParameter<ofFloatColor>& parameter, bool alpha = true);
+	bool AddParameter(ofParameter<ofColor>& parameter, bool alpha = true);
 	bool AddParameter(ofParameter<std::string>& parameter, size_t maxChars, bool multiline);
 	bool AddParameter(ofParameter<void>& parameter);
 
