@@ -57,21 +57,22 @@ https://github.com/pjulien21/ofImGuiApp/issues/1
 **OF IMGUI CODE**  
 https://github.com/PlaymodesStudio/ofxImGuiSimple -> simple but without helpers  
 https://github.com/yasuhirohoshino/ofxPBRHelper -> cool addon that uses ImGui to scene handle and store/recall settings  
-https://github.com/sebasobotka/ofxImGui -> Combo and ListBox which can take a vector<string> and customize fonts ( + .otf) 
+https://github.com/sebasobotka/ofxImGui -> Combo and ListBox which can take a vector<string> and customize fonts ( + .otf)  
 https://github.com/MacFurax/ofxImGui -> nice theme, custom widgets kind of sound synth device like circular knob...  
-https://github.com/pjulien21/ofImGuiApp -> simple but modifiying main.app 
+https://github.com/pjulien21/ofImGuiApp -> simple but modifiying main.app  
 https://github.com/yumataesu/ImGui_Widgets -> kind of vj widgets  
-https://github.com/Iwanaka/ofxMyUtil/blob/master/src/utils/ofxMyUtilImGui.h -> OF helpers. 
+https://github.com/Iwanaka/ofxMyUtil/blob/master/src/utils/ofxMyUtilImGui.h -> OF helpers.  
 https://github.com/geekowll/imdesigner -> tools to create and deep customize widgets  
 https://github.com/katotetsuro/ofxImGui/tree/multiwindow -> simple code to allow multiwindow/contexts without crash  
 https://github.com/memo/ofxMSAControlFreakImGui  
-https://github.com/rystylee/ofxImGui-docking    
+https://github.com/rystylee/ofxImGui-docking  
 https://github.com/Akira-Hayasaka/ofxImGui_SplineEditor  
 https://github.com/d3cod3/ofxImGui/commit/a288774a4ff2bd395a47e7720d9cdb487e23fc94 -> customize fonts  
+
 **RAW IMGUI CODE**  
 https://github.com/ocornut/imgui_club -> main examples  
 https://github.com/aiekick/ImGuiFileDialog -> files browsers  
-https://github.com/AirGuanZ/imgui-filebrowser
+https://github.com/AirGuanZ/imgui-filebrowser  
 https://github.com/CedricGuillemet/ImGuizmo -> gizmos  
 https://github.com/BrutPitt/imGuIZMO.quat  
 https://github.com/john-chapman/im3d  
