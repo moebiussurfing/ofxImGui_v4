@@ -3,6 +3,13 @@ ofxImGui_v4
 
 ## Notes by @moebiusSurfing:  
 
+#### DEPRECTAED
+Currently I am using this fork:  
+https://github.com/Daandelange/ofxImGui/tree/ofParameters-Helpers-Test  
+* Multicontext/instances
+* ImGui 1.80+
+-------------------------------------------------
+
 ### *NOT READY TO USE YET. STILL VERY BUGGY. I AM HAVING PROBLEMS TO ADD HELPERS TO HANDLE ofParameters*  
 
 
