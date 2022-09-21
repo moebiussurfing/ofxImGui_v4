@@ -3,8 +3,10 @@ ofxImGui_v4
 
 ## Notes by @moebiusSurfing:  
 
-#### DEPRECTAED
+#### DEPRECATED
 Currently I am using this fork:  
+https://github.com/moebiussurfing/ofxSurfingImGui  
+
 https://github.com/Daandelange/ofxImGui/tree/ofParameters-Helpers-Test  
 * Multicontext/instances
 * ImGui 1.80+
